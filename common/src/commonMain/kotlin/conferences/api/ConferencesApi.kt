@@ -7,6 +7,7 @@ import io.ktor.client.request.get
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonConfiguration
 import conferences.model.Conference
+import io.ktor.client.request.header
 
 class ConferencesApi {
 
